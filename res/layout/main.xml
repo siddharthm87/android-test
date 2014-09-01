@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Click on the below buttons to test"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"/>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Launch Webview"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/buttonActivity"
+        android:layout_marginTop="84dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="launch dialog"
+        android:id="@+id/dialogLauncher"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="33dp"
+        android:layout_below="@+id/buttonActivity"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Switch Fragment"
+        android:id="@+id/switchFragment"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="33dp"
+        android:layout_below="@+id/dialogLauncher"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
+

@@ -1,0 +1,6 @@
+# view AndroidManifest.xml #generated:9
+-keep class com.sid.myapp.MyAndroidAppActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:16
+-keep class com.sid.myapp.WebviewActivity { <init>(...); }
+
