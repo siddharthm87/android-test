@@ -14,7 +14,6 @@ public class WebviewActivity extends Activity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.webview);
         WebView myWebView = (WebView) findViewById(R.id.web);
-        myWebView.setLayerType(View.LAYER_TYPE_SOFTWARE, null);
-        myWebView.loadUrl("www.amazon.com");
+        myWebView.loadUrl("http://www.amazon.com");
     }
 }
