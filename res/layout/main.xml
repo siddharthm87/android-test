@@ -32,11 +32,20 @@
     <Button
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
-        android:text="Switch Fragment"
+        android:text="List View"
         android:id="@+id/switchFragment"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="33dp"
         android:layout_below="@+id/dialogLauncher"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="checkState"
+        android:id="@+id/checkState"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="33dp"
+        android:layout_below="@+id/switchFragment"
         android:layout_centerHorizontal="true"/>
 </RelativeLayout>
 

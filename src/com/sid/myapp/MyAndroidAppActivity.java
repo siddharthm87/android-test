@@ -45,5 +45,15 @@ public class MyAndroidAppActivity extends Activity
 
             }
         });
+
+        Button checkState = (Button) findViewById(R.id.checkState);
+        switchFragment.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MyAndroidAppActivity.this, StateChangeActivity.class);
+                startActivity(intent);
+
+            }
+        });
     }
 }
