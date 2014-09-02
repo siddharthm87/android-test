@@ -5,6 +5,7 @@
       android:versionName="1.0">
     <uses-sdk android:minSdkVersion="11" />
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.READ_CONTACTS"></uses-permission>
 
     <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
         <activity android:name=".MyAndroidAppActivity"
@@ -16,6 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".WebviewActivity"
-                  android:hardwareAccelerated="true"></activity>
+                  android:hardwareAccelerated="true">
+        </activity>
+        <activity android:name=".ListViewLoader"></activity>
     </application>
 </manifest>

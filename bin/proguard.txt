@@ -1,6 +1,9 @@
-# view AndroidManifest.xml #generated:10
+# view AndroidManifest.xml #generated:22
+-keep class com.sid.myapp.ListViewLoader { <init>(...); }
+
+# view AndroidManifest.xml #generated:11
 -keep class com.sid.myapp.MyAndroidAppActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:18
+# view AndroidManifest.xml #generated:19
 -keep class com.sid.myapp.WebviewActivity { <init>(...); }
 
