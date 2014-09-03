@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical"
+                xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
     <TextView
@@ -17,35 +18,53 @@
         android:text="Launch Webview"
         android:layout_gravity="center_horizontal"
         android:id="@+id/buttonActivity"
-        android:layout_marginTop="84dp"
+        android:layout_marginTop="29dp"
         android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true"/>
+        android:layout_alignParentLeft="true"/>
     <Button
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:text="launch dialog"
         android:id="@+id/dialogLauncher"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="33dp"
-        android:layout_below="@+id/buttonActivity"
-        android:layout_centerHorizontal="true"/>
+        android:layout_alignTop="@+id/checkState"
+        android:layout_toRightOf="@+id/checkState"/>
     <Button
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:text="List View"
         android:id="@+id/switchFragment"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="33dp"
-        android:layout_below="@+id/dialogLauncher"
-        android:layout_centerHorizontal="true"/>
+        android:layout_below="@+id/buttonActivity"
+        android:layout_alignParentLeft="true"/>
     <Button
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:text="checkState"
         android:id="@+id/checkState"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="33dp"
-        android:layout_below="@+id/switchFragment"
-        android:layout_centerHorizontal="true"/>
+        android:layout_above="@+id/showList"
+        android:layout_toRightOf="@+id/buttonActivity"/>
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_below="@+id/checkState"
+        android:layout_marginTop="31dp"
+        android:layout_alignParentRight="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show List"
+        android:id="@+id/showList"
+        android:layout_alignTop="@+id/switchFragment"
+        android:layout_toRightOf="@+id/switchFragment"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hide List"
+        android:id="@+id/hideLIst"
+        android:layout_below="@+id/dialogLauncher"
+        android:layout_toRightOf="@+id/showList"/>
 </RelativeLayout>
 

@@ -1,7 +1,6 @@
 package com.sid.myapp;
 
 import android.app.Activity;
-import android.view.View;
 import android.os.Bundle;
 import android.webkit.WebView;
 
@@ -14,6 +13,8 @@ public class WebviewActivity extends Activity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.webview);
         WebView myWebView = (WebView) findViewById(R.id.web);
-        myWebView.loadUrl("http://www.amazon.com");
+        if (myWebView!=null) {
+            myWebView.loadUrl("http://www.amazon.com");
+        }
     }
 }

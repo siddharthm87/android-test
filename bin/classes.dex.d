@@ -7,6 +7,8 @@
 /Users/siddharthmolleti/workspace/Android/quickapp/bin/classes/com/sid/myapp/MyAndroidAppActivity$2.class \
 /Users/siddharthmolleti/workspace/Android/quickapp/bin/classes/com/sid/myapp/MyAndroidAppActivity$3.class \
 /Users/siddharthmolleti/workspace/Android/quickapp/bin/classes/com/sid/myapp/MyAndroidAppActivity$4.class \
+/Users/siddharthmolleti/workspace/Android/quickapp/bin/classes/com/sid/myapp/MyAndroidAppActivity$5.class \
+/Users/siddharthmolleti/workspace/Android/quickapp/bin/classes/com/sid/myapp/MyAndroidAppActivity$6.class \
 /Users/siddharthmolleti/workspace/Android/quickapp/bin/classes/com/sid/myapp/MyAndroidAppActivity.class \
 /Users/siddharthmolleti/workspace/Android/quickapp/bin/classes/com/sid/myapp/R$attr.class \
 /Users/siddharthmolleti/workspace/Android/quickapp/bin/classes/com/sid/myapp/R$drawable.class \
