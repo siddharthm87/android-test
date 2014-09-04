@@ -13,7 +13,7 @@ public class WebviewActivity extends Activity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.webview);
         WebView myWebView = (WebView) findViewById(R.id.web);
-        if (myWebView!=null) {
+        if (myWebView != null) {
             myWebView.loadUrl("http://www.amazon.com");
         }
     }

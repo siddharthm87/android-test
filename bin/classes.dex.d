@@ -14,6 +14,7 @@
 /Users/siddharthmolleti/workspace/Android/quickapp/bin/classes/com/sid/myapp/R$drawable.class \
 /Users/siddharthmolleti/workspace/Android/quickapp/bin/classes/com/sid/myapp/R$id.class \
 /Users/siddharthmolleti/workspace/Android/quickapp/bin/classes/com/sid/myapp/R$layout.class \
+/Users/siddharthmolleti/workspace/Android/quickapp/bin/classes/com/sid/myapp/R$menu.class \
 /Users/siddharthmolleti/workspace/Android/quickapp/bin/classes/com/sid/myapp/R$string.class \
 /Users/siddharthmolleti/workspace/Android/quickapp/bin/classes/com/sid/myapp/R.class \
 /Users/siddharthmolleti/workspace/Android/quickapp/bin/classes/com/sid/myapp/StateChangeActivity.class \
