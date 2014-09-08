@@ -94,7 +94,14 @@ public class MyAndroidAppActivity extends Activity
             }
         });
 
-
+        Button launchSpinner = (Button) findViewById(R.id.launchSpinner);
+        launchSpinner.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MyAndroidAppActivity.this, SpinnerActivity.class);
+                startActivity(intent);
+            }
+        });
 
     }
 

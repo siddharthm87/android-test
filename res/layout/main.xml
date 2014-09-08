@@ -66,5 +66,12 @@
         android:id="@+id/hideLIst"
         android:layout_below="@+id/dialogLauncher"
         android:layout_toRightOf="@+id/showList"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spinner"
+        android:id="@+id/launchSpinner"
+        android:layout_below="@+id/dialogLauncher"
+        android:layout_toRightOf="@+id/hideLIst"/>
 </RelativeLayout>
 
