@@ -5,6 +5,7 @@
 /Users/siddharthmolleti/workspace/Android/quickapp/res/drawable-xhdpi/ic_launcher.png \
 /Users/siddharthmolleti/workspace/Android/quickapp/res/layout/fragment.xml \
 /Users/siddharthmolleti/workspace/Android/quickapp/res/layout/main.xml \
+/Users/siddharthmolleti/workspace/Android/quickapp/res/layout/spinner_acitivity.xml \
 /Users/siddharthmolleti/workspace/Android/quickapp/res/layout/state_change.xml \
 /Users/siddharthmolleti/workspace/Android/quickapp/res/layout/webview.xml \
 /Users/siddharthmolleti/workspace/Android/quickapp/res/menu/menu.xml \
