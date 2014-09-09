@@ -5,10 +5,9 @@
     android:layout_height="fill_parent">
 
     <Spinner
-            android:layout_width="match_parent"
+            android:layout_width="193dp"
             android:layout_height="wrap_content"
             android:id="@+id/spinner"
-            android:layout_gravity="center_horizontal"
             android:spinnerMode="dropdown"/>
 </LinearLayout>
 
