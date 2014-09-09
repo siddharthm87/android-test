@@ -4,6 +4,9 @@
 # view AndroidManifest.xml #generated:11
 -keep class com.sid.myapp.MyAndroidAppActivity { <init>(...); }
 
+# view AndroidManifest.xml #generated:24
+-keep class com.sid.myapp.SpinnerActivity { <init>(...); }
+
 # view AndroidManifest.xml #generated:23
 -keep class com.sid.myapp.StateChangeActivity { <init>(...); }
 

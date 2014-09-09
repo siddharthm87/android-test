@@ -8,6 +8,7 @@ import android.app.Activity;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.os.Bundle;
+import android.widget.TextView;
 
 /**
  * Created by molleti on 9/8/14.
@@ -21,7 +22,8 @@ public class SpinnerActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.spinner_acitivity);
         Spinner spinner = (Spinner) findViewById(R.id.spinner);
-        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.planets_array, R.layout.spinner_acitivity);
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
+                R.array.planets_array, android.R.layout.simple_spinner_item);
 
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 

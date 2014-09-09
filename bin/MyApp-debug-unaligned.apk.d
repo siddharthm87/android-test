@@ -1,3 +1,3 @@
-/Users/siddharthmolleti/workspace/Android/quickapp/bin/MyApp-debug-unaligned.apk : \
-/Users/siddharthmolleti/workspace/Android/quickapp/bin/MyApp.ap_ \
-/Users/siddharthmolleti/workspace/Android/quickapp/bin/classes.dex \
+/Users/molleti/workspace-personal/android-test/bin/MyApp-debug-unaligned.apk : \
+/Users/molleti/workspace-personal/android-test/bin/MyApp.ap_ \
+/Users/molleti/workspace-personal/android-test/bin/classes.dex \

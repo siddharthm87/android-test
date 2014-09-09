@@ -21,5 +21,6 @@
         </activity>
         <activity android:name=".ListViewLoader"></activity>
         <activity android:name=".StateChangeActivity"></activity>
+        <activity android:name=".SpinnerActivity"></activity>
     </application>
 </manifest>

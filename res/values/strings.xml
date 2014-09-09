@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">MyAndroidAppActivity</string>
-    <resources>
         <string-array name="planets_array">
             <item>Mercury</item>
             <item>Venus</item>
@@ -12,5 +11,4 @@
             <item>Uranus</item>
             <item>Neptune</item>
         </string-array>
-    </resources>
 </resources>

@@ -1,2 +1,2 @@
-/Users/siddharthmolleti/workspace/Android/quickapp/bin/AndroidManifest.xml : \
-/Users/siddharthmolleti/workspace/Android/quickapp/AndroidManifest.xml \
+/Users/molleti/workspace-personal/android-test/bin/AndroidManifest.xml : \
+/Users/molleti/workspace-personal/android-test/AndroidManifest.xml \
