@@ -1,10 +1,14 @@
 #Last build type
+<<<<<<< HEAD
 #Mon, 08 Sep 2014 23:46:31 -0700
 <<<<<<<=HEAD
 #Mon, 08 Sep 2014 23:03:48 -0700
 =\=\=\=\=\=\=
 #Mon, 08 Sep 2014 17:05:58 -0700
 >>>>>>>=00b93d7a87f7dde00843e27c3118e5d1629b6916
+=======
+#Thu, 18 Sep 2014 03:20:16 -0700
+>>>>>>> Added async task activity.
 
 build.last.target=debug
 
